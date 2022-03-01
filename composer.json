@@ -14,6 +14,13 @@
     "suggest": {
         "ext-mbstring": "*"
     },
+    "repositories": [
+
+        {
+            "type": "vcs",
+            "url": "https://github.com/froomzim/NotaFiscalSP"
+        }
+    ],
     "keywords": [
         "NFS",
         "NFTS",
