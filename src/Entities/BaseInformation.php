@@ -112,7 +112,7 @@ class BaseInformation
     {
         if (strpos($options[Params::CERTIFICATE_PATH], '.pfx')) {
             $certificate = Certificate::pfx2pem($options[Params::CERTIFICATE_PATH], $options[Params::CERTIFICATE_PASS]);
-            $tempNam = @tempnam('/tmp', 'cert');
+            $tempNam = @tempnam(Params::CERTIFICATE_PATH, 'cert');
             $filename = $tempNam . '.pem';
             $fp = fopen($filename, 'w');
             fwrite($fp, $certificate);

@@ -8,7 +8,8 @@
         "greenter/xmldsig": "^5.0",
         "spatie/array-to-xml": "^2.8",
         "ext-dom": "*",
-        "ext-soap": "*"
+        "ext-soap": "*",
+        "jeroen-g/laravel-packager": "^2.8"
     },
     "suggest": {
         "ext-mbstring": "*"
